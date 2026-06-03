@@ -1,0 +1,16 @@
+.cb {
+    width: 56rem;
+    height: 56rem;
+    margin: 0 auto;
+    border: 2px solid #000;
+
+    background:
+        conic-gradient(
+            #000 25%,
+            #fff 0 50%,
+            #000 0 75%,
+            #fff 0
+        );
+
+    background-size: 14rem 14rem;
+}
