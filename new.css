@@ -2,13 +2,13 @@
     width: 56rem;
     height: 56rem;
     margin: 0 auto;
-    border: 2px solid #000;
+    border: 2px solid #9a86b1;
 
     background:
         conic-gradient(
-            #000 25%,
+            #a79b9b 25%,
             #fff 0 50%,
-            #000 0 75%,
+            #a79b9b 0 75%,
             #fff 0
         );
 
