@@ -3,14 +3,15 @@
     height: 56rem;
     margin: 0 auto;
     border: 2px solid #9a86b1;
+    /* new line */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
 
-    background:
-        conic-gradient(
-            #a79b9b 25%,
-            #fff 0 50%,
-            #a79b9b 0 75%,
-            #fff 0
-        );
+.square:nth-child(odd){
+    background: #000;
+}
 
-    background-size: 14rem 14rem;
+.square:nth-child(even){
+    background: #fff;
 }
